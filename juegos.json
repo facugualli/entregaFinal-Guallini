@@ -1,0 +1,62 @@
+[
+    {
+        "image": "./img/elden.jpg",
+        "nombre": "Elden Ring",
+        "precio": "$15050"
+    },
+    {
+        "image": "./img/fifa.webp",
+        "nombre": "EA FC24",
+        "precio": "$36690"
+    },
+    {
+        "image": "./img/spider-man.jpeg",
+        "nombre": "Spider-man 2",
+        "precio": "$42890"
+    },
+    {
+        "image": "./img/baldur.jpeg",
+        "nombre": "Baldur's Gate 3",
+        "precio": "$32550"
+    },
+    {
+        "image": "./img/granturismo.webp",
+        "nombre": "Gran Turismo 7",
+        "precio": "$19610"
+    },
+    {
+        "image": "./img/assassin.jpg",
+        "nombre": "Assassin'S Creed Mirage",
+        "precio": "$29900"
+    },
+    {
+        "image": "./img/thelast.jpeg",
+        "nombre": "The Last of Us Remastered",
+        "precio": "$9050"
+    },
+    {
+        "image": "./img/horizon.webp",
+        "nombre": "Horizon Forbidden West",
+        "precio": "$11280"
+    },
+    {
+        "image": "./img/crash.webp",
+        "nombre": "Crash Bandicoot",
+        "precio": "$9150"
+    },
+    {
+        "image": "./img/hogwarts.jpeg",
+        "nombre": "Hogwart's Legacy",
+        "precio": "$20920"
+    },
+    {
+        "image": "./img/diablo.jpeg",
+        "nombre": "Diablo IV",
+        "precio": "$30400"
+    },
+    {
+        "image": "./img/gow.jpg",
+        "nombre": "God of War Ragnarok",
+        "precio": "$20780"
+    }
+]

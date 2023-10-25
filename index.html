@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.16/dist/sweetalert2.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logops2.png" />
+    <title>Tienda PS5</title>
+</head>
+<body>
+    <nav>
+        <div class="grid-nav">
+            <img id="busqueda" class="logo" src="./img/logops.png" alt="">
+            <h1 class="nombre-logo">Gualdo Digitales PS5</h1>
+        </div>
+        <div>
+            <img class="img-carro" src="./img/carrito.png" alt="">
+            <span class="item-count" id="item-count">0</span>
+            <div class="carro-js" id="carro-de-compras">       
+                <ul class="text-js" id="detallesJuegos"></ul>
+                <div class="text-js" id="total">Total: $0.00</div>
+                <button class="text-js" id="finalizarCompra">Finalizar compra</button>
+                <button class="text-js" id="limpiarTotal" disabled>Limpiar Carrito</button>
+                </div> 
+            </div>   
+        </div>
+    </nav>
+
+    <div class="contenedor-juegos">
+        <h1 class="titulos">Juegos</h1>
+        <div class="linea"></div>
+
+        <div class="juegos-grid" id="juegos-grid">
+        </div>
+
+        <h1 class="titulos">Suscripciones</h1>
+        <div class="linea"></div>
+
+        <div id="suscripciones">   
+        </div>
+    </div>
+        
+    <h3>Facundo Guallini - Proyecto final - Curso JS Coderhouse</h3>
+
+    <script src="./botonLimpiar.js"></script>
+    <script src="./script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.31/sweetalert2.js"></script>
+    <script src="finalizarCompra.js"></script>
+</body>
+</html>

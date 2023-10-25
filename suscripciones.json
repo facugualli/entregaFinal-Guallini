@@ -1,0 +1,17 @@
+[
+    {
+        "image": "./img/psplus-essential.webp",
+        "nombre": "PS Plus Essential 12 meses",
+        "precio": "$51750"
+    },
+    {
+        "image": "./img/psplus-extra.avif",
+        "nombre": "PS Plus Extra 12 meses",
+        "precio": "$87400"
+    },
+    {
+        "image": "./img/psplus-deluxe.avif",
+        "nombre": "PS Plus Extra 12 meses",
+        "precio": "$116000"
+    }
+]
